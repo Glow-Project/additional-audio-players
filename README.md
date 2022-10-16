@@ -9,6 +9,7 @@
 
 ```gdscript
 $AudioQueuePlayer.add(<my-audio-stream>)
+$AudioQueuePlayer.play()
 
 $AudioTreePlayer.play_async(<my-audio-stream>)
 ```
