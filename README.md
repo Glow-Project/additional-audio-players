@@ -1,9 +1,7 @@
 # additional-audio-players
 
-- AudioQueuePlayer
-    Add songs to the queue an let them be played back one by one
-- AudioTreePlayer
-    Play multiple audios simultaneously 
+- AudioQueuePlayer: Add songs to the queue an let them be played back one by one
+- AudioTreePlayer: Play multiple audios simultaneously 
 
 ## usage
 
