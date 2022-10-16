@@ -1,4 +1,4 @@
-# additional-audio-streams
+# additional-audio-players
 
 - AudioQueuePlayer
     Add songs to the queue an let them be played back one by one
