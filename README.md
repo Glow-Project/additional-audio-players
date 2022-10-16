@@ -7,7 +7,7 @@
 
 ## usage
 
-```gd
+```gdscript
 $AudioQueuePlayer.add(<my-audio-stream>)
 
 $AudioTreePlayer.play_async(<my-audio-stream>)
