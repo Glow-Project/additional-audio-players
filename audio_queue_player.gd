@@ -11,7 +11,7 @@ func play(pos: float = 0) -> void:
 		return
 
 	stream = queue.pop_front()
-	.play(pos)
+	super.play(pos)
 
 func add(audio: AudioStream) -> void:
 	queue.append(audio)

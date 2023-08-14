@@ -1,5 +1,5 @@
 extends Node
-class_name AudioTreePlayer
+class_name AudioDistributor
 
 @export var audio_players = []
 @export var stream: AudioStream

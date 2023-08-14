@@ -21,7 +21,7 @@ func play(position: float = 0.0) -> void:
 	if is_root:
 		return
 
-	.play(position)
+	super.play(position)
 	await self.finished
 	queue_free()
 
