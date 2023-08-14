@@ -1,7 +1,7 @@
 extends AudioStreamPlayer
 class_name AudioTreePlayer
 
-var is_root := true
+@export var is_root := true
 
 func play_async(audio: AudioStream, position: float = 0.0) -> AudioTreePlayer:
 	if not is_root:
@@ -22,6 +22,6 @@ func play(position: float = 0.0) -> void:
 		return
 
 	.play(position)
-	yield(self, "finished")
+	await self.finished
 	queue_free()
 
